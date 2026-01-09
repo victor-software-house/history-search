@@ -16,9 +16,9 @@ When the user invokes `/search-history "query"`:
 
 1. **Determine current project path** for scoping:
    ```bash
-   # Get the project-specific directory in ~/.claude/projects/
-   PROJECT_DIR=$(echo "$PWD" | sed 's|/|-|g' | sed 's|^-||')
-   SEARCH_PATH="$HOME/.claude/projects/$PROJECT_DIR"
+   # Source helper functions
+   source "${CLAUDE_PLUGIN_ROOT}/scripts/get-project-path.sh"
+   SEARCH_PATH=$(get_project_sessions_path)
    ```
 
 2. **Execute semantic search** using the CLI tool:

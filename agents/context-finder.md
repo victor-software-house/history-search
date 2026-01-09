@@ -6,6 +6,7 @@ description: >-
   "find where we", "how did we implement", "what was the approach", or when the user seems
   to be trying to recall prior work.
 model: haiku
+color: cyan
 tools:
   - Bash
   - Read
