@@ -1,0 +1,12 @@
+{
+  "name": "history-search",
+  "version": "1.0.0",
+  "description": "Search and export previous Claude Code session history to maintain context continuity",
+  "author": {
+    "name": "Victor Araújo",
+    "url": "https://github.com/victor-software-house"
+  },
+  "repository": "https://github.com/victor-software-house/history-search",
+  "license": "MIT",
+  "keywords": ["history", "search", "sessions", "context", "export"]
+}
